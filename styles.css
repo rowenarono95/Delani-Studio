@@ -1,12 +1,29 @@
+
+body{
+  overflow-x:hidden ;
+}
 .header {
     background-image: url(images/h_img.jpg);
     background-size: cover;
-    background-attachment: fixed;
     text-align: center;
     padding-top: 200px;
     color: white;
     height: 100vh;
 }
 .services{
-    
+  background-image: url(/images/s_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
+
+h1{
+  text-align: center;
+}
+
