@@ -29,4 +29,11 @@ h1{
 #back{
   background-image: url(/images/c_image.jpg);
 }
+h2{
+  text-align: center;
+  font-weight:bold ;
+}
+#about-us{
+  text-align: aligh center;
+}
 
