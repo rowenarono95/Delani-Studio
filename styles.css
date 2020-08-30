@@ -28,12 +28,26 @@ h1{
 }
 #back{
   background-image: url(/images/c_image.jpg);
+  height: 50vh;
 }
 h2{
   text-align: center;
   font-weight:bold ;
 }
 #about-us{
-  text-align: aligh center;
+  text-align: center;
+}
+.mouse{
+  animation: bounce 3s infinite;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+@keyframes bounce{
+  from{
+    transform: translateY(0px) ;
+    to{
+      transform: translateY(-50px) ;
+    }
+  }
 }
 
