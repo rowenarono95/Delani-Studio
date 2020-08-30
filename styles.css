@@ -47,11 +47,18 @@ h2{
 
 .social-media{
   align-items: center;
+  
 }
-#name,#email{
+#name,#email,#textArea{
   background-color: transparent;
+  color:white;
 }
-#textArea::placeholder{
-  background-color: transparent;
+.form-control::placeholder{
+  color:white;
+  opacity: 1;
+}
+
+.projects{
+  display: none;
 }
 
