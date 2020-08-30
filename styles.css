@@ -22,12 +22,18 @@ body{
   margin-top: 20px;
   padding-top: 20px;
 }
+.design1,.develop1,.management1{
+  display:none;
+}
 
 h1{
   text-align: center;
 }
 #back{
   background-image: url(/images/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 50vh;
 }
 h2{
@@ -36,18 +42,16 @@ h2{
 }
 #about-us{
   text-align: center;
+  padding: 2%;
 }
-.mouse{
-  animation: bounce 3s infinite;
-  margin-top: 10%;
-  margin-bottom: 2%;
+
+.social-media{
+  align-items: center;
 }
-@keyframes bounce{
-  from{
-    transform: translateY(0px) ;
-    to{
-      transform: translateY(-50px) ;
-    }
-  }
+#name,#email{
+  background-color: transparent;
+}
+#textArea::placeholder{
+  background-color: transparent;
 }
 
