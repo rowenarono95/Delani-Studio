@@ -10,6 +10,14 @@ body{
     color: white;
     height: 100vh;
 }
+.name{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.text{
+  font-size: larger;
+  font-weight: bolder;
+}
 .services{
   background-image: url(images/s_image.jpg);
   background-size: cover;
@@ -25,6 +33,9 @@ body{
 .design1,.develop1,.management1{
   display:none;
 }
+#mouse{
+  padding-top: 150px;
+}
 
 h1{
   text-align: center;
@@ -38,16 +49,19 @@ h1{
 }
 h2{
   text-align: center;
-  font-weight:bold ;
+  font-weight:bolder ;
+  font-size: larger;
+  padding-top: 2%;
 }
 #about-us{
   text-align: center;
   padding: 2%;
+  font-size: larger;
 }
 
 .social-media{
   text-align: center;
-  padding: 100px;
+  padding: 20px;
   
 }
 #name,#email,#textArea{
@@ -61,9 +75,19 @@ h2{
 
 .projects{
   display: none;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  top: 0;
 }
 h3{
   text-align: center;
   color: white;
+}
+h5{
+  text-align: center;
 }
 
