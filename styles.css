@@ -47,7 +47,7 @@ h2{
 
 .social-media{
   text-align: center;
-  padding: 100px;
+  padding: 20px;
   
 }
 #name,#email,#textArea{
@@ -65,5 +65,8 @@ h2{
 h3{
   text-align: center;
   color: white;
+}
+h5{
+  text-align: center;
 }
 
