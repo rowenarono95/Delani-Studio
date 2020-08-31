@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <title>Delani-Studio</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <script src="script.js"></script>
 </head>
 
@@ -25,9 +25,9 @@
       <p class="text">
         AMAZING PEOPLE ARE MAKING DESIGN IN A FUN ENVIRONMENT
       </p>
-        <a href="#about-us">
-          <img src="images/mouse_click.png" alt="mouse" class="mx-auto d-block pt-8 jump" id="mouse" />
-        </a>
+      <a href="#about-us">
+        <img src="images/mouse_click.png" alt="mouse" class="mx-auto d-block pt-8 jump" id="mouse" />
+      </a>
     </div>
 
     <div class="container-fluid">
@@ -172,7 +172,7 @@
         <div class="col-md-3 mb-4 d-flex align-items-stretch">
           <div class="card">
             <div class="view overlay">
-              <img src="images/work7.jpg" alt="" class="card-img-top" id="image7"/>
+              <img src="images/work7.jpg" alt="" class="card-img-top" id="image7" />
             </div>
             <p class="projects" id="burned">BURNED</p>
           </div>
@@ -192,23 +192,24 @@
       <h3>Contact Us</h3>
       <form class="p-3 mt-3 col-md-6 mx-auto"
         action="https://gmail.us17.list-manage.com/subscribe/post?u=96bd534ac97c83fdd1652d0be&amp;id=97b63020cf"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        method="post" id="mc-embedded-subscribe-form" name="subscribe" class="validate" target="_blank"
         novalidate>
         <div class="form-group">
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Name.." id="name" />
+              <input type="text" class="form-control" placeholder="Name.." id="name" name="name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Email.." id="email" />
+              <input type="text" class="form-control" placeholder="Email.." id="email" name="email">
             </div>
           </div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="textArea" rows="6" placeholder="Your message here"></textarea>
+          <textarea class="form-control" id="textArea" rows="6" placeholder="Your message here" name="rono"></textarea>
         </div>
         <div class="clear">
-          <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button" />
+          <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+            onclick="myFunction()" />
         </div>
       </form>
     </div>
@@ -233,20 +234,6 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-    <script type="text/javascript">
-      (function ($) {
-        window.fnames = new Array();
-        window.ftypes = new Array();
-        fnames[0] = "EMAIL";
-        ftypes[0] = "email";
-        fnames[1] = "FNAME";
-        ftypes[1] = "text";
-        fnames[2] = "LNAME";
-        ftypes[2] = "text";
-      })(jQuery);
-      var $mcj = jQuery.noConflict(true);
-    </script>
   </div>
 </body>
 

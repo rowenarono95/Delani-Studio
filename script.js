@@ -67,14 +67,9 @@ $(document).ready(function () {
     });
 });
 
-
-
-// function myFunction(){
-//     var name =document.getElementById("name").value;
-//     var email =document.getElementById("email").value;
-//     var text =document.getElementById("textArea").value;
-//     if(name==""|| email==""||textArea==""){
-//       alert("enter your name, email and your message")
-//     }
-//     else alert(name+" Thank you for reaching out to us")
-//   }
+function myFunction(form) {
+    var name = document.forms["subscribe"]["name"].value;
+    var email = document.forms["subscribe"]["email"].value;
+    var message = document.forms["subscribe"]["rono"].value;
+    alert("Hello! " + name + "," + " Thank you for reaching out to us. ");
+}
