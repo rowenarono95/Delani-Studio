@@ -18,9 +18,3 @@ $(document).ready(function () {
         $(".management1").toggle();
     });
 });
-
-// $("#image1").mouseover(function(){
-//     $("#studio").show();
-// }).mouseout(function)(){
-//     $("#studio").hide();
-// });
