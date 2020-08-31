@@ -15,17 +15,20 @@ This website showcases Delani Studio company. This includes the services they of
 One doesn't have to install this app in a server in order to have it running in their system. It's simply made from HTML, CSS, Bootstrap, Jquery and JS so one can run it directly using a browser.
 
 ### Demo
-* Link to live site https://rowenarono95.github.io/Delani-Studio/
+** Link to live site https://rowenarono95.github.io/Delani-Studio/
+
+### Github repository
+**[click here](https://github.com/rowenarono95/Delani-Studio)** to view my repo
 
 ## Known Bugs
 None known for now.
 
 ## Technologies Used
-.HTML
-.CSS
-.Bootstrap
-.jQuery
-.Mailchimp
+* HTML
+* CSS
+* Bootstrap
+* jQuery
+* Mailchimp
 
 ## Support and contact details
 Incase of any issues feel free to contact me via email at rowenarono@gmail.com
