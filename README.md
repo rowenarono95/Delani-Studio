@@ -42,7 +42,7 @@ None known for now.
 
 Incase of any issues feel free to contact me via email at rowenarono@gmail.com
 
-### License
+## License
 
 [MIT](https://github.com/rowenarono95/Delani-Studio/blob/master/LICENSE.md)
 
