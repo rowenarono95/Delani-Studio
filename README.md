@@ -44,6 +44,6 @@ Incase of any issues feel free to contact me via email at rowenarono@gmail.com
 
 ### License
 
-## [License](https://github.com/rowenarono95/Delani-Studio/blob/master/LICENSE.md)
+[MIT](https://github.com/rowenarono95/Delani-Studio/blob/master/LICENSE.md)
 
-Copyright (c) 2019 **Rowena Rono**
+© [Rowena Rono](https://github.com/rowenarono95)
